@@ -35,7 +35,7 @@ struct numbers
 };
 int main()
 {
-    std::ifstream numbers_1IN("numbers_2.txt"); // окрываем файл для чтения
+    std::ifstream numbers_1IN("numbers_2.txt");
     auto numbers_1 = read(numbers_1IN);
     numbers_1IN.close();
 
